@@ -20,4 +20,4 @@ AddEncoding gzip .symbolsgz
 AddEncoding gzip .memgz
 
 AddEncoding gzip .datagz
-
+AddEncoding gzip .js.gz
