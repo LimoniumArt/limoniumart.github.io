@@ -1186,7 +1186,7 @@ $(document).ready(function() {
 					});
 				});
 		} else {
-			var mainCompiledCode = fetchOrDownloadAndStore(db, Module.locateFile('UE4Game-HTML5-Shipping.asm.js'), 'arraybuffer').then(function(data) {
+			var mainCompiledCode = fetchOrDownloadAndStore(db, Module.locateFile('UE4Game-HTML5-Shipping.asm.js.gz'), 'arraybuffer').then(function(data) {
 				taskProgress(TASK_COMPILING);
 				return addScriptToDom(data).then(function() {
 					taskFinished(TASK_COMPILING);
