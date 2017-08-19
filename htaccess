@@ -1,4 +1,4 @@
-AddType text/javascript .js.gz
+AddType application/x-javascript .js.gz
 AddType application/x-javascript .jsgz
 AddType application/wasm .wasmgz
 AddType text/plain .symbolsgz
