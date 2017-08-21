@@ -22,6 +22,3 @@ AddEncoding gzip .memgz
 AddEncoding gzip .datagz
 AddEncoding gzip .js.gz
 AddEncoding gzip .gz
-
-gzip_static  on;
-gzip_proxied expired no-cache no-store private auth;
